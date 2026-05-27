@@ -2,7 +2,8 @@ import os
 import pandas as pd
 
 # 环境变量配置
-os.environ["DEEPSEEK_API_KEY"] = "sk-ef8d17d7dcda4490b6d55fdd6f9e65f3"
+os.environ["DEEPSEEK_API_KEY"] = "sk-xxxxxxxxxx"
+#此处使用的是DEEPSEEK配置的API
 
 # 核心依赖导入
 from llama_index.core import Settings
